@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js"></script>
+    <title>Conversor de Temperaturas</title>
+</head>
+<body>
+
+    <header>
+        <h1 id="titulo-cal-temp">Calculadora de Temperatura</h1>
+    </header>
+
+    <div
+
+        <form id="calculadora">
+
+            <input type="number" name="celcius" id="graus" > 
+
+            <select name="selecione-grau" id="optTemp" placeholder="Escala">
+                <option value= 'C' >Celsius (°C)</option>
+                <option value= 'F' > Fahrenheit (°F)</option>
+                <option value= 'K' > Kelvin (°K)</option>
+                <option value= 'R' > Rankine (°R)</option>   
+            </select>  
+    
+            <button id="calculate" value="calcular" onclick="calculo()">calcular</button>
+    
+        </form>
+
+    </div>
+
+    <div id="tab-resultados">
+
+        <h1 id="titulo-resultados">Resultados</h1>
+
+        <div id="result">
+    
+            <div id="resultado1"></div>
+
+            <div id="resultado2"></div>
+
+            <div id="resultado3"></div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
